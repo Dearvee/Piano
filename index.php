@@ -24,7 +24,12 @@
         function playMp3() {
             let events = event.srcElement.innerText;
             let mp3 = document.getElementById(events);
+            if(!mp3.paused) {
+                mp3.currentTime=0;
+            }
+            else{
                 mp3.play();
+            }
         }
     </script>
 </head>
