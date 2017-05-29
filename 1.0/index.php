@@ -17,6 +17,13 @@ $score=implode("*",$scores);
         body{
             background: url("../../index/back.png");
         }
+        h2{
+            width: 200px;
+            color: #3366CC;
+            margin: 0 auto;
+            text-align: center;
+            text-shadow: 1px 1px 2px #3366CC;
+        }
         .note{
             width: 650px;
             color: #3366CC;
@@ -109,6 +116,7 @@ $score=implode("*",$scores);
     </script>
 </head>
 <body>
+<h2>9调Piano1.0</h2>
 <ul class="note" onmouseover="freePlay();">
     <li id="btn">1<audio id="1" src="mp3/1.mp3"></audio></li>
     <li>2<audio src="mp3/2.mp3"></audio></li>

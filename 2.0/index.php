@@ -17,11 +17,18 @@ $score=implode("*",$scores);
         body{
             background: url("../../index/back.png");
         }
+        h2{
+            width: 200px;
+            color: #3366CC;
+            margin: 0 auto;
+            text-align: center;
+            text-shadow: 1px 1px 2px #3366CC;
+        }
         .note{
             width: 450px;
             color: #3366CC;
             margin: 0 auto;
-            margin-top: 100px;
+            margin-top: 50px;
         }
         .note li{
             display: inline-block;
@@ -127,14 +134,15 @@ $score=implode("*",$scores);
     </script>
 </head>
 <body>
+<h2>7调(选)7阶Piano2.0</h2>
 <ul class="note" onmouseover="freePlay(selectItem(0));">
-    <li>1<audio></audio></li>
-    <li>2<audio></audio></li>
-    <li>3<audio></audio></li>
-    <li>4<audio></audio></li>
-    <li>5<audio></audio></li>
-    <li>6<audio></audio></li>
-    <li>7<audio></audio></li>
+    <li>1<audio src="mp3/e1!.mp3"></audio></li>
+    <li>2<audio src="mp3/e2!.mp3"></audio></li>
+    <li>3<audio src="mp3/e3!.mp3"></audio></li>
+    <li>4<audio src="mp3/e4!.mp3"></audio></li>
+    <li>5<audio src="mp3/e5!.mp3"></audio></li>
+    <li>6<audio src="mp3/e6!.mp3"></audio></li>
+    <li>7<audio src="mp3/e7!.mp3"></audio></li>
 </ul>
 <ul class="ctrl">
     <label>音调:</label>
@@ -176,16 +184,5 @@ $score=implode("*",$scores);
     <br/>
     <div id="playUserMusic" class="play">Play your music!</div>
 </ul>
-<ul style="color: #3366CC;">
-    <h2>About</h2>
-    <li>
-        <a href="piano1.0">上一个版本</a>
-    </li>
-    <li>power by
-        <a href="http://www.dearvee.com">vee</a>
-    </li>
-</ul>
 </body>
-<script>
-</script>
 </html>
