@@ -134,7 +134,7 @@ $score=implode("*",$scores);
     </script>
 </head>
 <body>
-<h2>7调(选)7阶Piano2.0</h2>
+<h2>7调(选)7阶 49选7键Piano2.0</h2>
 <ul class="note" onmouseover="freePlay(selectItem(0));">
     <li>1<audio src="mp3/e1!.mp3"></audio></li>
     <li>2<audio src="mp3/e2!.mp3"></audio></li>

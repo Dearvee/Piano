@@ -116,7 +116,7 @@ $score=implode("*",$scores);
     </script>
 </head>
 <body>
-<h2>9调Piano1.0</h2>
+<h2>1阶9调Piano1.0</h2>
 <ul class="note" onmouseover="freePlay();">
     <li id="btn">1<audio id="1" src="mp3/1.mp3"></audio></li>
     <li>2<audio src="mp3/2.mp3"></audio></li>
